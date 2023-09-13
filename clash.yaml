@@ -58,7 +58,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://t.me/ddgksf2021.yaml
+    url: https://api.nexconvert.com/sub?target=clash&url=https://sub.sanfen009.xyz/api/v1/client/subscribe?token=58fdde4cafe175a4eea244297867d6f9&flag=clash&emoji=true&list=true&new_name=true&udp=false
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=https://sub.sanfen009.xyz/api/v1/client/subscribe?token=58fdde4cafe175a4eea244297867d6f9&flag=clash&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
