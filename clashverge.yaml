@@ -99,7 +99,7 @@ d: &d {type: http, behavior: domain, format: text, interval: 86400}
 i: &i {type: http, behavior: ipcidr, format: text, interval: 86400}
 
 proxy-providers:
-  Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: aHR0cHM6Ly9hcGkuYWNhaXNiZXN0LnNob3AvYXBpL3YxL2NsaWVudC9zdWJzY3JpYmU/dG9rZW49YWQ2ZGJhMTNlODY0ZjYwNDc0ODgzOTNjMGRmYWZiMzk=}
+  Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https%3A%2F%2Fapi.acaisbest.shop%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Dad6dba13e864f6047488393c0dfafb39&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false&new_name=true}
     # 在此将"http://your-service-provider"替换为你的机场订阅，推荐使用 base64 或者 node list
     # Sub-Store生成的链接,可以直接替换上述 url 引号中的部分,具体见 Sub-Store 教程         
                
